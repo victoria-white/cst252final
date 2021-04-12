@@ -4,6 +4,8 @@ body {
   margin-right: 300px;
 }
 
-.image1 {
-  align-items: flex-end;
+#image1 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #2f4b26;
 }
