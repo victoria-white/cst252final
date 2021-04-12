@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #fcb07e;
   font-family: 'Josefin Sans', sans-serif;
@@ -41,4 +44,7 @@ h2 {
   padding: 10px;
   color: #ffffff;
   text-align: center;
+}
+a {
+  color: #FFFFFF;
 }
