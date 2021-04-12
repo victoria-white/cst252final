@@ -4,9 +4,21 @@ body {
   margin-right: 300px;
 }
 
-#image1 {
+#pg-break {
+  height: 20px;
+}
+
+#image-even {
   border-style: solid;
   border-width: 5px;
   border-color: #2f4b26;
+  position: absolute;
   right: 0px;
+  margin-right: 300px;
+}
+
+#image-odd {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #2f4b26;
 }
