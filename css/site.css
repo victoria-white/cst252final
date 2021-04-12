@@ -1,7 +1,23 @@
 body {
   background-color: #fcb07e;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#contents {
   margin-left: 300px;
   margin-right: 300px;
+}
+
+#title {
+  background-color: #274c77;
+  padding: 10px;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+h2 {
+  color: #ffffff;
+  text-align: center;
 }
 
 #pg-break {
@@ -12,13 +28,17 @@ body {
   border-style: solid;
   border-width: 5px;
   border-color: #2f4b26;
-  position: absolute;
-  right: 0px;
-  margin-right: 300px;
 }
 
 #image-odd {
   border-style: solid;
   border-width: 5px;
   border-color: #2f4b26;
+}
+
+#footer {
+  background-color: #274c77;
+  padding: 10px;
+  color: #ffffff;
+  text-align: center;
 }
