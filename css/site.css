@@ -25,6 +25,10 @@ h2 {
   color: #ffffff;
   text-align: center;
 }
+#waypoint {
+  z-index: 1;
+  text-align: right;
+}
 
 #pg-break {
   height: 20px;
