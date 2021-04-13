@@ -1,43 +1,43 @@
 html {
   scroll-behavior: smooth;
 }
-body {
-  background-color: #fcb07e;
-  font-family: 'Josefin Sans', sans-serif;
-}
+
 #contents {
   margin-left: 300px;
   margin-right: 300px;
-  color: #2f4b26;
+  color: #424242;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
 }
 
 #title {
-  background-color: #274c77;
+  background-color: #e7a38d;
   padding: 10px;
+  font-family: 'Josefin Sans', sans-serif;
 }
-h1 {
-  color: #ffffff;
+
+h1, h2 {
+  color: #3f5184;
   text-align: center;
 }
-h2 {
-  color: #ffffff;
-  text-align: center;
+h3 {
+  color: #edb255;
+  font-weight: bolder;
 }
 
 #footer {
-  background-color: #274c77;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #e7a38d;
   padding: 10px;
   color: #ffffff;
   text-align: center;
 }
 
-.mediabody {
+.mediabody, .mediabody2 {
   opacity: 0;
   transition: all 200ms ease-in;
 }
-.js-mediabody-animate{
+.js-mediabody-animate, .js-mediabody-animate2{
   opacity: 1;
 }
 
