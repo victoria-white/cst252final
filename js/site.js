@@ -9,8 +9,8 @@ $mediabody.waypoint(function(){
   $mediabody.addClass('js-mediabody-animate');
 }, {offset: '50%'});
 
-var $mediabody2 = $('.mediabody2');
-
-$mediabody.waypoint(function(){
-  $mediabody.addClass('js-mediabody-animate2');
-}, {offset: '50%'});
+// var $mediabody2 = $('.mediabody2');
+//
+// $mediabody.waypoint(function(){
+//   $mediabody.addClass('js-mediabody-animate2');
+// }, {offset: '50%'});
