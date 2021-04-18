@@ -37,6 +37,18 @@ var $mediabody6 = $('.mediabody6');
 
 $mediabody6.waypoint(function(){
   $mediabody6.addClass('js-mediabody-animate6');
+}, {offset: '40%'});
+
+var $mediabody7 = $('.mediabody7');
+
+$mediabody7.waypoint(function(){
+  $mediabody7.addClass('js-mediabody-animate7');
+}, {offset: '40%'});
+
+var $mediabody8 = $('.mediabody8');
+
+$mediabody8.waypoint(function(){
+  $mediabody8.addClass('js-mediabody-animate8');
 }, {offset: '60%'});
 
 //Hide / Display elements
@@ -82,6 +94,22 @@ function myFunction5() {
 }
 function myFunction6() {
   var x = document.getElementById("myDIV6");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function myFunction7() {
+  var x = document.getElementById("myDIV7");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function myFunction8() {
+  var x = document.getElementById("myDIV8");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {

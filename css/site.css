@@ -36,11 +36,11 @@ h4 {
   text-align: center;
 }
 
-.mediabody, .mediabody2, .mediabody3, .mediabody4, .mediabody5, .mediabody6 {
+.mediabody, .mediabody2, .mediabody3, .mediabody4, .mediabody5, .mediabody6, .mediabody7, .mediabody8 {
   opacity: 0;
   transition: all 200ms ease-in;
 }
-.js-mediabody-animate, .js-mediabody-animate2, .js-mediabody-animate3, .js-mediabody-animate4, .js-mediabody-animate5, .js-mediabody-animate6{
+.js-mediabody-animate, .js-mediabody-animate2, .js-mediabody-animate3, .js-mediabody-animate4, .js-mediabody-animate5, .js-mediabody-animate6, .js-mediabody-animate7, .js-mediabody-animate8{
   opacity: 1;
 }
 
@@ -59,10 +59,18 @@ h4 {
   color: white; }
 
   /*Hide Display elements*/
-  #myDIV, #myDIV2, #myDIV3, #myDIV4, #myDIV5, #myDIV6 {
+  #myDIV, #myDIV4, #myDIV5, #myDIV6, #myDIV7, #myDIV8 {
     width: 100%;
     padding: 50px 0;
     text-align: center;
     background-color: lightgreen;
     margin-top: 20px;
   }
+
+#myDIV2, #myDIV3 {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #FFCCCB;
+  margin-top: 20px;
+}
