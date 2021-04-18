@@ -15,6 +15,29 @@ $mediabody2.waypoint(function(){
   $mediabody2.addClass('js-mediabody-animate2');
 }, {offset: '40%'});
 
+var $mediabody3 = $('.mediabody3');
+
+$mediabody3.waypoint(function(){
+  $mediabody3.addClass('js-mediabody-animate3');
+}, {offset: '40%'});
+
+var $mediabody4 = $('.mediabody4');
+
+$mediabody4.waypoint(function(){
+  $mediabody4.addClass('js-mediabody-animate4');
+}, {offset: '40%'});
+
+var $mediabody5 = $('.mediabody5');
+
+$mediabody5.waypoint(function(){
+  $mediabody5.addClass('js-mediabody-animate5');
+}, {offset: '40%'});
+
+var $mediabody6 = $('.mediabody6');
+
+$mediabody6.waypoint(function(){
+  $mediabody6.addClass('js-mediabody-animate6');
+}, {offset: '60%'});
 
 //Hide / Display elements
 function myFunction() {

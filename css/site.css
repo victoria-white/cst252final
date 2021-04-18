@@ -17,12 +17,15 @@ html {
 }
 
 h1, h2 {
-  color: #3f5184;
+  color: #FFFFFF;
   text-align: center;
 }
 h3 {
   color: #edb255;
   font-weight: bolder;
+}
+h4 {
+  color: #3f5184;
 }
 
 #footer {
@@ -33,11 +36,11 @@ h3 {
   text-align: center;
 }
 
-.mediabody, .mediabody2 {
+.mediabody, .mediabody2, .mediabody3, .mediabody4, .mediabody5, .mediabody6 {
   opacity: 0;
   transition: all 200ms ease-in;
 }
-.js-mediabody-animate, .js-mediabody-animate2 {
+.js-mediabody-animate, .js-mediabody-animate2, .js-mediabody-animate3, .js-mediabody-animate4, .js-mediabody-animate5, .js-mediabody-animate6{
   opacity: 1;
 }
 
