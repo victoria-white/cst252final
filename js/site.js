@@ -9,11 +9,11 @@ $mediabody.waypoint(function(){
   $mediabody.addClass('js-mediabody-animate');
 }, {offset: '40%'});
 
-// var $mediabody2 = $('.mediabody2');
-//
-// $mediabody.waypoint(function(){
-//   $mediabody.addClass('js-mediabody-animate2');
-// }, {offset: '50%'});
+var $mediabody2 = $('.mediabody2');
+
+$mediabody2.waypoint(function(){
+  $mediabody2.addClass('js-mediabody-animate2');
+}, {offset: '40%'});
 
 
 //Hide / Display elements

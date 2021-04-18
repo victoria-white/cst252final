@@ -33,11 +33,11 @@ h3 {
   text-align: center;
 }
 
-.mediabody {
+.mediabody, .mediabody2 {
   opacity: 0;
   transition: all 200ms ease-in;
 }
-.js-mediabody-animate {
+.js-mediabody-animate, .js-mediabody-animate2 {
   opacity: 1;
 }
 
