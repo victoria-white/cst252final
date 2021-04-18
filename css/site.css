@@ -56,7 +56,7 @@ h3 {
   color: white; }
 
   /*Hide Display elements*/
-  #myDIV {
+  #myDIV, #myDIV2, #myDIV3, #myDIV4, #myDIV5, #myDIV6 {
     width: 100%;
     padding: 50px 0;
     text-align: center;
