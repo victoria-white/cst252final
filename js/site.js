@@ -116,3 +116,17 @@ function myFunction8() {
     x.style.display = "none";
   }
 }
+
+$"#my-button".click(function(){
+  portfolio = $("#portfolio").val();
+  unhide(portfolio);
+});
+
+function unhide(section) {
+  $(".hidey").hide();
+  $("."+section).show();
+}
+
+.hidey {
+  display: none;
+}
