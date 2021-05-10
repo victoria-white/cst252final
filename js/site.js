@@ -126,7 +126,3 @@ function unhide(section) {
   $(".hidey").hide();
   $("."+section).show();
 }
-
-.hidey {
-  display: none;
-}
