@@ -18,7 +18,102 @@
   	<script src="js/site.js" defer></script>
   </head>
   <body>
-    <div>
+
+    <!--TITLE-->
+    <div id="title">
+      <h1>Group 7 Flake 'n' Bake Final Project</h1>
+			<h1>How to Build a Professional Portfolio</h1>
+			<h2>CST 252: Scripting for Multimedia</h2>
     </div>
+    <br>
+
+    <!--CONTENTS-->
+    <div id="contents">
+      <!--INTRODUCTION-->
+      <h3>How to Build a Digital Portfolio</h3>
+      <p>Because we are all design majors, we felt it would be useful to do some
+				research about creating a portfolio. Having a strong portfolio is incredibly
+				important for designers as that is an employer's first impression on your
+				work, so we need to know what to put into a portfolio and how to make it look
+				nice. Since this is so relevant to all of us, we decided to go for this as our
+				final topic.</p>
+
+      <!--WEBSITES-->
+      <h3>Suggested Websites</h3>
+      <p>Out of all the Portfolios we reviewed, there were 4 host sites that were the most common:</p>
+      <li>Wix</li>
+      <li>SquareSpace</li>
+      <li>WordPress</li>
+      <li>and Readymag</li>
+      <br>
+      <p>We suggest that you look into these websites when you begin looking for a platform to host your digital portfolio!</p>
+
+      <!--SELECTION FIELD-->
+      <h3>Portfolio Examples</h3>
+      <p>Select the type of Portfolio Example you'd like to view from the field below:</p>
+      <select name="portfolio" id="portfolio">
+        <option default="disabled">Pick a Portfolio</option>
+        <option value="graphic-design">Graphic Design</option>
+        <option value="photography">Photography</option>
+        <option value="illustration">Illustration</option>
+      </select>
+      <button id="button">Select</button>
+      <p></p>
+
+      <!--GRAPHIC DESIGN PORTFOLIO-->
+      <div class="graphic-design hidey">
+        <h3>Graphic Design Portfolio</h3>
+        <div class="media mt-3">
+  		    <img src="img/and.jpeg" class="align-self-center mr-3" width="500px" class="image" title = "& By Pawel Norbert">
+  		    <div class="mediabody">
+  		      <h4>& <small><i>By Pawel Nolbert</i></small></h4>
+  		      <p>This image is a great example of simplicity, while still being very
+  						detailed. The & has a lot of texture and vibrant colors, while the
+  						background is more simplistic and geometric. There is nice contrast
+  						and this will easily stand out among other pieces in a portfolio and
+  						is easily readable if it is a smaller size or thumbnail.</p>
+  						<br>
+  						<button onclick="myFunction()">Is this a good portfolio piece?</button>
+
+  						<div id="myDIV" style="display: none;">
+  						Yes! This is a good example of something to include in a graphic designer's portfolio!
+  						</div>
+  		    </div>
+        </div>
+      </div>
+
+      <!--PHOTOGRAPHY PORTFOLIO-->
+      <div class="photography hidey">
+        <h3>Photography Portfolio</h3>
+      </div>
+
+      <!--ILLUSTRATION PORTFOLIO-->
+      <div class="illustration hidey">
+        <h3>Illustration Portfolio</h3>
+        <div class="media mt-3">
+  		    <img src="img/death.jpg" class="align-self-center mr-3" width="500px" class="image" title = "Death By Michelle Carlos">
+  		    <div class="mediabody">
+  		      <h4>Death <small><i>By Michelle Carlos</i></small></h4>
+  		      <p>Michelle Carlos has a clear understanding of composition and color
+              in this illustration. She also has a clear sense of theme and a unique
+              style. It is important to show illustrations that show your personal
+              style in them</p>
+  						<br>
+  						<button onclick="myFunction()">Is this a good portfolio piece?</button>
+
+  						<div id="myDIV" style="display: none;">
+  						Yes! This is a good example of something to include in a graphic designer's portfolio!
+  						</div>
+  		    </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="footer">
+      <h2>Built by Everett Lomath, Arianna Nalbach, Monica To, and Victoria White</h2>
+      <a href="#top">Back To Top</a>
+    </div>
+
   </body>
 </html>

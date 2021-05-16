@@ -3,6 +3,20 @@
 //Created: April 12th 2021
 //License: Public Domain
 
+// HIDE SHOW PORTFOLIO SECTIONS
+
+function unhide(section) {
+  $(".hidey").hide();
+  $("."+section).show();
+}
+
+$("#button").click(function(){
+  portfolio = $("#portfolio").val();
+  unhide(portfolio);
+});
+
+// CONTENT FADE IN ANIMATION
+
 var $mediabody = $('.mediabody');
 
 $mediabody.waypoint(function(){
@@ -51,7 +65,8 @@ $mediabody8.waypoint(function(){
   $mediabody8.addClass('js-mediabody-animate8');
 }, {offset: '60%'});
 
-//Hide / Display elements
+// HIDE / DISPLAY ELEMENTS
+
 function myFunction() {
   var x = document.getElementById("myDIV");
   if (x.style.display === "none") {
@@ -115,14 +130,4 @@ function myFunction8() {
   } else {
     x.style.display = "none";
   }
-}
-
-$"#my-button".click(function(){
-  portfolio = $("#portfolio").val();
-  unhide(portfolio);
-});
-
-function unhide(section) {
-  $(".hidey").hide();
-  $("."+section).show();
 }

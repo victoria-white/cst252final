@@ -3,8 +3,8 @@ html {
 }
 
 #contents {
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 15%;
+  margin-right: 15%;
   color: #424242;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
@@ -26,6 +26,21 @@ h3 {
 }
 h4 {
   color: #3f5184;
+}
+
+select {
+  padding: 5pt;
+}
+
+button {
+  background-color: #e7a38d;
+  color: #FFFFFF;
+  padding: 5pt;
+  border: none;
+}
+
+.hidey {
+  display: none;
 }
 
 #footer {
